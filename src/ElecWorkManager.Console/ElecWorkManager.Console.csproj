@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ElecWorkManager.Domain\ElecWorkManager.Domain.csproj" />
+    <ProjectReference Include="..\ElecWorkManager.Application\ElecWorkManager.Application.csproj" />
+    <ProjectReference Include="..\ElecWorkManager.Infrastructure\ElecWorkManager.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
